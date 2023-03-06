@@ -64,7 +64,7 @@ app.use(express.json());
 
 const mongo_connection = mongoose
   .connect(
-    "mongodb+srv://Abishek:Abishek123@cluster0.rr49qah.mongodb.net/?retryWrites=true&w=majority"
+    ""
   )
   .then((conn) => {
     console.log("Connected to the database", conn.connection.host);
